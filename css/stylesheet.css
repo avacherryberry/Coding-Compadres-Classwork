@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html,body{
+    width:100%;
+    height: 100%;
+}
+
+/* NAV BAR */
+#top-nav{
+    background-color: rgb(236, 145, 145);
+}
+#top-nav ul{
+    display:flex;
+    justify-content: right;
+    list-style: none;
+}
+#top-nav ul li a{
+    display: block;
+    padding:1
+}
+
+body{
+    background-color:olivedrab;
+    color:olivedrab;
+}
+
+h1{
+    color: mediumvioletred;
+}
+
+#statement{
+    color:black;
+}
+
+#list{
+    color:antiquewhite;
+    font-size: larger;
+}
