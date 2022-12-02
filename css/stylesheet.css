@@ -3,6 +3,7 @@
 *{
     margin:0;
     padding:0;
+    border-style: solid;
 }
 
 html,body{
@@ -12,6 +13,15 @@ html,body{
     max-width: 2500px;
     background-image: url('meditation.avif');
     background-position: 950px;
+}
+
+img{
+    width: 100%;
+    height: 50%;
+    /* object-fit= cover;
+    hero? ***lesson 11****
+    max width and height to be 'bottom layer'
+    see futuro health website */
 }
 
 main{
