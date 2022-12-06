@@ -31,9 +31,6 @@ main{
 }
 
 /* NAV BAR */
-#top-nav{
-
-}
 
 #top-nav ul{
     display:flex;
@@ -63,7 +60,7 @@ h1{
     color: teal;
 }
 
-h3{
+h1, h2, h3{
     font-style: italic;
 }
 
@@ -73,9 +70,10 @@ h3{
     margin-right: 50%;
 }
 
-#list{
-    color:antiquewhite;
+.lists{
     font-size: larger;
+    margin-left: 50%;
+    font-size: 18px;
 }
 
 footer #social ul{
