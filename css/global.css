@@ -10,18 +10,18 @@ html,body{
     font-size: 20px;
     width:100%;
     height: 100%;
-    max-width: 2500px;
+    min-width: 600px;
     /* background-image: url('meditation.avif'); */
     /* background-position: 950px; */
+    background-color: rgba(199, 183, 199, 0.851);
 }
 
 img{
     width: 100%;
-    object-fit: cover;
 }
 
 main{
-    /* display: flex; */
+    max-width: 2500px;
 }
 
 /* NAV BAR */
@@ -32,19 +32,10 @@ main{
     /* huge probelems with flex */
 }
 
-#hero-img{
-    width: 100%;
-    height: 20%;
-    object-fit:cover;
-    object-position: 20%;
-    /* object-position: 100px; */
-    /* cant get image to move obj position not working */
-}
-
 #top-nav ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
     font-size: 20px;
     font-weight: bolder;
@@ -53,7 +44,7 @@ main{
 #top-nav ul li a{
     display: block;
     padding:10px;
-    color:rgb(184, 60, 89);
+    color:rgb(0, 0, 0);
 }
 
 #top-nav ul li a:hover{
@@ -62,29 +53,6 @@ main{
 /* why does hover work for all of them even tho i only selected li a */
 body{
    
-}
-
-h1{
-    font-weight:bold;
-    text-align: center;
-    color: teal;
-}
-
-h1, h2, h3{
-    font-style: italic;
-}
-
-#statement{
-    color:black;
-    font-size: 18px;
-    /* margin-right: 50%; */
-}
-
-.lists{
-    font-size: larger;
-    /* margin-left: 50%; */
-    font-size: 18px;
-    
 }
 
 footer #social ul{
