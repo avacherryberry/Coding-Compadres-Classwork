@@ -9,11 +9,10 @@
 html,body{
     font-size: 20px;
     width:100%;
-    height: 100%;
     min-width: 600px;
     /* background-image: url('meditation.avif'); */
     /* background-position: 950px; */
-    background-color: rgba(199, 183, 199, 0.851);
+    background-color: rgba(181, 159, 181, 0.851);
 }
 
 img{
@@ -29,31 +28,31 @@ main{
 #top-nav{
     display: flex;
     flex-direction: column;
+    background-color: rgba(152, 122, 45, 0.739)
     /* huge probelems with flex */
 }
 
 #top-nav ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: left;
     list-style: none;
     font-size: 20px;
     font-weight: bolder;
+    align-items: center; /* aligns them on the center of the line/space theyre in, inside a flex box*/
 }
 
 #top-nav ul li a{
     display: block;
     padding:10px;
-    color:rgb(0, 0, 0);
+    color: rgba(199, 183, 199, 0.851);
 }
 
 #top-nav ul li a:hover{
     background-color: lightgray;
 }
 /* why does hover work for all of them even tho i only selected li a */
-body{
-   
-}
+
 
 footer #social ul{
     display:flex;
